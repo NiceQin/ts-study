@@ -1,0 +1,1 @@
+# typescript 是javascript的一个超集，主要提供了 类型系统 和 对es6的支持。学习自阮一峰教程
