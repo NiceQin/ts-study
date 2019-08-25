@@ -8,10 +8,11 @@ console.log(anything.name);
 console.log(anything.name.firstName);
 anything.setValue('john')
 anything.setValue("john").say('hi')
-anything.age.setValue("20");
+anything.age.aaa("20");
 
-//在声明一个变量时没有指定其类型，也没有对其赋值，则默认是 any类型
+//在声明一个变量时没有指定其类型，也没有对其赋值，则推论成 any类型而不被类型检查
 let something // 等价于 let something:any
 something = 1
 something = 'string'
-something.setName('rose')
+something.toString()
+// something.setName('rose') //错误
